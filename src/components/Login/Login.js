@@ -17,7 +17,7 @@ const Login = () => {
 
     setIsPending(true);
 
-    fetch("/user", {
+    fetch("/api/user", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
