@@ -25,7 +25,7 @@ const Navbar = (props) => {
 
   useEffect(() => {
     const abortCont = new AbortController();
-    fetch("/user", { signal: abortCont.signal })
+    fetch("/api/user", { signal: abortCont.signal })
       .then((res) => {
         if (!res.ok) {
           throw Error("Could not fetch the data for that resource");
