@@ -24,7 +24,7 @@ const End = () => {
       setDisplay("none");
     }
     const search = { username };
-    fetch("/showing", {
+    fetch("/api/showing", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(search),

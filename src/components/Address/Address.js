@@ -16,7 +16,7 @@ const Address = () => {
     setIsPending(true);
     document.getElementById("address-bar").scrollIntoView();
     const search = { username };
-    fetch("/showing", {
+    fetch("/api/showing", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(search),
@@ -35,7 +35,7 @@ const Address = () => {
 
     setIsButtonPending(true);
 
-    fetch("/address", {
+    fetch("/api/address", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
