@@ -1,0 +1,133 @@
+.cart-bar-parent {
+  display: flex;
+  padding: 8px 22px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc8019;
+  box-shadow: #a36a00 1px 2px;
+}
+.clear-cart-button {
+  margin: 8px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(0deg, transparent 50%, white 50%);
+  background-size: 392px 56px;
+  transition: 0.3s;
+  border: 3px solid white;
+  color: white;
+}
+.clear-cart-button:hover {
+  background-position: 196px 0px;
+  color: #fc8019;
+}
+.cart-body-parent {
+  min-height: 100vh;
+  background-color: rgb(255, 241, 223);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 40px 40px;
+}
+.cart-body-child {
+  display: flex;
+  width: 100%;
+}
+.cart-dish {
+  width: 75%;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cart-dish-child {
+  margin: 30px 30px;
+  border-radius: 10px;
+  background-color: #fd821db2;
+}
+.cart-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.cart-detail {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.cart-name {
+  padding-right: 8px;
+}
+.cart-price {
+  padding-left: 8px;
+  border-left: 3px dashed white;
+}
+.payment {
+  width: 25%;
+  margin: 8px;
+  padding: 38px;
+  border-left: 4px dashed #ff5c4d;
+}
+.total-item {
+  display: flex;
+  margin: 16px;
+  margin-top: 0;
+  justify-content: center;
+  font-size: 20px;
+  color: #ff5c4d;
+  font-weight: bold;
+}
+.bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #fc8019;
+  font-weight: 500;
+}
+.bill-name {
+  width: 250px;
+  padding-right: 4px;
+}
+.bill-price {
+  width: 50px;
+  padding-left: 8px;
+  border-left: 3px dashed #ff5c4d;
+}
+.total-bill {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #ff5c4d;
+  font-weight: bold;
+  border-top: 3px dashed #ff5c4d;
+}
+.proceed-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.proceed-button {
+  margin: 8px;
+  padding: 10px 28px;
+  font-size: 20px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(0deg, transparent 50%, #fc8019 50%);
+  background-size: 272px 56px;
+  transition: 0.3s;
+  border: 3px solid #fc8019;
+  color: #fc8019;
+}
+.proceed-button:hover {
+  background-position: 136px 0px;
+  color: white;
+}

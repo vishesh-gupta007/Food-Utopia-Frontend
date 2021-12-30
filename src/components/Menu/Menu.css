@@ -1,0 +1,95 @@
+.menu-bar-parent {
+  display: flex;
+  padding: 8px 22px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc8019;
+  box-shadow: #a36a00 1px 2px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.cart-count {
+  color: white;
+  font-size: 40px;
+  margin-top: 4px;
+  margin-right: 16px;
+}
+.menu-body-parent {
+  min-height: 100vh;
+  background-color: rgb(255, 241, 223);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 40px 40px;
+}
+.dish-course {
+  margin: 22px;
+  padding: 8px;
+  color: #fc8019;
+  font-size: 46px;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.menu-card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.menu-card-child {
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+.menu-img {
+  height: 310px;
+  width: 310px;
+  border-radius: 10px 10px 0px 0px;
+}
+.menu-detail {
+  width: 310px;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.menu-name {
+  padding-right: 8px;
+}
+.menu-price {
+  padding-left: 8px;
+  border-left: 3px dashed white;
+}
+.add-container {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+  padding: 4px;
+}
+.add-button {
+  background-color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fc8019;
+  font-weight: 500;
+  font-size: 24px;
+}
+.add-button:hover {
+  background-color: rgb(255, 240, 221, 0.5);
+  color: white;
+}

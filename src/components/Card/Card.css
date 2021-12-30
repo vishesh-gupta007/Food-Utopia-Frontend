@@ -1,0 +1,38 @@
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-child {
+  margin: 24px 30px;
+  border-radius: 16px;
+  background: -webkit-linear-gradient(transparent 50%, #fd821d86 50%);
+  background-size: 300px 796px;
+  transition: 0.3s;
+}
+.card-child:hover {
+  background-position: 0 398px;
+  box-shadow: #fd821d 0px 3px;
+}
+.card-child:hover .restro-name {
+  color: white;
+}
+.card-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 16px 16px 0px 0px;
+}
+.restro-name {
+  padding: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  color: #fc8019;
+  font-size: 24px;
+}
+.star {
+  padding: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 24px;
+}

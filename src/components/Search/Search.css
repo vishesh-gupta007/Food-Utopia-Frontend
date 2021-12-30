@@ -1,0 +1,112 @@
+.search-bar-parent {
+  display: flex;
+  padding: 8px 22px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc8019;
+  box-shadow: #a36a00 1px 2px;
+}
+.input {
+  display: flex;
+  width: 50%;
+}
+.search-box {
+  border-radius: 0;
+  width: 100%;
+}
+.search-button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 238, 215);
+  border: none;
+  font-size: 22px;
+  padding: 8px 22px;
+  font-weight: bold;
+  color: #fc8019;
+}
+.search-button:hover {
+  background-color: rgb(255, 240, 221, 0.3);
+  color: rgb(255, 247, 238);
+}
+.search-bar-icon {
+  font-size: 20px;
+  color: #fc8019;
+  margin-right: 8px;
+}
+.search-button:hover .search-bar-icon {
+  color: rgb(255, 247, 238);
+}
+.search-box:focus {
+  box-shadow: none;
+}
+.home-button {
+  background-color: #fc8019;
+  border: none;
+}
+.home-icon {
+  color: white;
+  font-size: 40px;
+}
+.home-icon:hover {
+  color: rgb(255, 240, 221, 0.6);
+}
+.search-body-parent {
+  min-height: 100vh;
+  background-color: rgb(255, 241, 223);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.search-body-child {
+  margin: 30px 30px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(transparent 50%, #fd821d86 50%);
+  background-size: 270px 756px;
+  max-height: 378px;
+  transition: 0.3s;
+}
+.search-body-child:hover {
+  background-position: 0 378px;
+  box-shadow: #fd821d 0px 3px;
+}
+.search-body-child:hover .search-restro {
+  color: white;
+}
+.search-body-child:hover .search-dish {
+  color: white;
+}
+.search-img {
+  height: 268px;
+  width: 268px;
+  border-radius: 10px 10px 0px 0px;
+}
+.search-restro {
+  width: 268px;
+  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  color: #fc8019;
+  font-size: 24px;
+}
+.search-dish {
+  width: 268px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  color: #ffa962;
+  font-weight: 500;
+}
+.search-dish-name {
+  padding-right: 8px;
+}
+.search-dish-price {
+  padding-left: 8px;
+  border-left: 3px dashed #ff5c4d;
+}

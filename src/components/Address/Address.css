@@ -1,0 +1,21 @@
+.address-body-parent {
+  min-height: 100vh;
+  background-color: rgb(255, 241, 223);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 40px 40px;
+}
+.address-form {
+  margin: 12% 20%;
+}
+.address-input {
+  margin: 46px;
+}
+.address-label {
+  color: #fc8019;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  padding-right: 50px;
+}
+.address-input-div {
+  padding-left: 54px;
+}

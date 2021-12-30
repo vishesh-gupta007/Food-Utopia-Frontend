@@ -1,0 +1,11 @@
+.error-body-parent {
+  min-height: 100vh;
+  background-color: rgb(255, 241, 223);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 40px 40px;
+}
+.error-body {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fc8019;
+}

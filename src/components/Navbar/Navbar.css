@@ -1,0 +1,59 @@
+.custom-navbar {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc8019;
+  box-shadow: #a36a00 1px 2px;
+}
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.heading-name {
+  color: white;
+  font-size: 46px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.greeting {
+  letter-spacing: 2px;
+  font-size: 42px;
+  color: white;
+  font-weight: 500;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8px;
+}
+.search-link {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.search-link:hover {
+  color: rgb(240, 240, 240);
+}
+.home-search {
+  color: white;
+  font-size: 26px;
+  margin: 4px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: #fc8019;
+}
